@@ -1,9 +1,11 @@
 (() => {
   function draw() {
+    var x = this.x;
+    var y = this.y;
     g.reset();
-    g.drawRect(2, 7, 20, 17);
-    g.fillRect(20, 10, 22, 14);
-    g.fillRect(4, 9, (4+Math.floor((14*(E.getBattery()/100)))), 15);
+    g.drawRect(x+4, y+7, x+22, y+17);
+    g.fillRect(x+22, y+10, x+24, y+14);
+    g.fillRect(x+6, y+9, x+(6+Math.floor((14*(E.getBattery()/100)))), y+15);
   }
 
   setInterval(() => {
@@ -12,7 +14,7 @@
 
   WIDGETS.minimalbattery = {
     area: "tr",
-    width: 24,
+    width: 30,
     draw: draw
   };
 })();
