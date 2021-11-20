@@ -1,0 +1,15 @@
+{ 
+    "id": "widminibattery",
+    "name": "Minimal Battery Widget",
+    "shortName": "Mini Battery",
+    "version": "0.3.0",
+    "description": "A minimal battery widget",
+    "icon": "widget.png",
+    "tags": "widget",
+    "type": "widget",
+    "supports" : ["BANGLEJS2"],  
+    "readme": "README.md",
+    "storage": [
+      {"name":"widminibattery.wid.js","url":"widget.js"}
+    ]
+}

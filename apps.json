@@ -4312,7 +4312,7 @@
     "id": "widminibattery",
     "name": "Minimal Battery Widget",
     "shortName": "Mini Battery",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "A minimal battery widget",
     "icon": "widget.png",
     "tags": "widget",
